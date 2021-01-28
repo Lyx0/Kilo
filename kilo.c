@@ -285,7 +285,7 @@ void editorUpdateSyntax(erow *row) {
             continue;
           }
         } else if (!strncmp(&row->render[i], mcs, mcs_len)) {
-          memse(&row->hl[i], HL_MLCOMMENT, mcs_len);
+          memset(&row->hl[i], HL_MLCOMMENT, mcs_len);
           i += mcs_len;
           in_comment = 1;
           continue;

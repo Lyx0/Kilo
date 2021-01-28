@@ -1,1 +1,5 @@
-Smol Text Editor in Progress
+Smol Text Editor I made following https://viewsourcecode.org/snaptoken/kilo/
+
+
+
+
